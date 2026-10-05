@@ -57,7 +57,7 @@ K-means split the manufacturers into two clusters:
  
 ## Regression analysis
  
-A correlation and regression analysis was also run on this dataset for the project. Its code is not included here. What it reported (n = 9 manufacturers):
+A correlation and regression analysis was also run on this dataset for the project. What it reported (n = 9 manufacturers):
  
 | Analysis | Result |
 |---|---|
