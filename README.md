@@ -6,7 +6,7 @@ Exploratory analysis of whether manufacturers with more recalled vehicles also h
 
 ## The problem
  
-The two public datasets have no shared key. The recalls file lists *manufacturers* ("GENERAL MOTORS, LLC"), while the crash file lists *makes* ("CHEVROLET"). Neither has the number of vehicles each manufacturer has on the road, which is needed to compare large and small manufacturers fairly. Most of this project is solving those two problems before any modeling.
+The two public datasets have no shared key. The recalls file lists *manufacturers* ("GENERAL MOTORS, LLC"), while the crash file lists *makes* ("CHEVROLET"). Neither has the number of vehicles each manufacturer has on the road, which is needed to compare large and small manufacturers fairly. These problems must be solved before any modeling.
  
 ## What `analysis.py` does
  
