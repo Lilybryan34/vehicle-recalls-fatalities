@@ -1,9 +1,9 @@
 # Vehicle Recalls and Fatalities: Manufacturer-Level Analysis
  
-Exploratory analysis of whether manufacturers with more recalled vehicles also have higher crash fatality rates. Course project for CISC 5380 (Fall 2025). Python, pandas, scikit-learn.
+Exploratory analysis of whether manufacturers with more recalled vehicles also have higher crash fatality rates. Python, pandas, scikit-learn.
  
-**Result in one line:** across the nine manufacturers studied, recalled units per vehicle on the road show no clear linear pattern with fatality rate, and a separate regression analysis run for the course project found vehicle exposure (cars on the road) a stronger predictor of deaths than recalls. With only nine data points, this is exploratory, not conclusive.
- 
+**Result in one line:** across the nine manufacturers studied, recalled units per vehicle on the road show no clear linear pattern with fatality rate, and a separate regression analysis run for the course project found vehicle exposure (cars on the road) a stronger predictor of deaths than recalls. 
+
 ## The problem
  
 The two public datasets have no shared key. The recalls file lists *manufacturers* ("GENERAL MOTORS, LLC"), while the crash file lists *makes* ("CHEVROLET"). Neither has the number of vehicles each manufacturer has on the road, which is needed to compare large and small manufacturers fairly. Most of this project is solving those two problems before any modeling.
@@ -57,7 +57,7 @@ K-means split the manufacturers into two clusters:
  
 ## Regression analysis
  
-A correlation and regression analysis was also run on this dataset for the project, by a project partner. Its code is not included here. What it reported (n = 9 manufacturers):
+A correlation and regression analysis was also run on this dataset for the project. Its code is not included here. What it reported (n = 9 manufacturers):
  
 | Analysis | Result |
 |---|---|
