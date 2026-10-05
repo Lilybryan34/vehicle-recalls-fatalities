@@ -2,8 +2,7 @@
 
 Exploratory analysis of whether manufacturers with more recalled vehicles also have higher crash fatality rates. Course project for CISC 5380 (Fall 2025).
 
-**Result in one line:** across the nine manufacturers studied, recalled units per vehicle on the road show no clear linear pattern with fatality rate, and the regression notebook finds vehicle exposure (cars on the road) a stronger predictor of deaths than recalls. With only nine data points, this is exploratory, not conclusive.
-
+**Result in one line:** across the nine manufacturers studied, recalled units per vehicle on the road show no clear linear pattern with fatality rate, and the regression notebook finds vehicle exposure (cars on the road) a stronger predictor of deaths than recalls. 
 ## Data
 
 - **NHTSA Recalls Data** (data.transportation.gov): recall date, manufacturer, number of vehicles potentially affected.
@@ -55,7 +54,6 @@ Outputs go to `output/` (combined CSV) and `figures/`.
 
 ## Limitations
 
-- **Only nine data points**, so statistical results are weak.
 - **The recall measure is not a true rate.** It is lag-adjusted recalled units divided by COR (x100k). A vehicle recalled more than once is counted each time, and the lag multiplier inflates values. The column was renamed `Lag-Adj Recalled Units per COR (x100k)` for this reason.
 - **COR is an estimate.** It uses one survivability curve for all manufacturers and excludes vehicles older than 15 years. The sales-by-year inputs and the multiplication were done separately and are **not in this repo**; the nine final values are in [`data/cars_on_road_proxy.csv`](data/cars_on_road_proxy.csv).
 - No adjustment for vehicle age mix, driver demographics, or recall severity (an A/C recall and a brake recall count the same).
