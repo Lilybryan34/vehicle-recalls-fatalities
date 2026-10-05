@@ -26,6 +26,7 @@ The two public datasets have no shared key. The recalls file lists *manufacturer
 - **NHTSA Recalls Data** (data.transportation.gov): recall date, manufacturer, number of vehicles potentially affected.
 - **NHTSA Fatality Analysis Reporting System (FARS), vehicle table:** vehicle make, model year, deaths.
 - **NHTSA survivability curve** (Lu, 2006, DOT HS 809 952), used to estimate vehicles on the road.
+
 Raw files are not included. See [`data/README.md`](data/README.md) for sources and file names.
  
 ## Vehicles on the road
