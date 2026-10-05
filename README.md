@@ -28,9 +28,9 @@ Raw files are not included. See [`data/README.md`](data/README.md) for sources a
 
 ![Recalls vs fatalities](figures/fig5_recalls_vs_fatalities.png)
 
-## Regression analysis (Paige Mitchell)
+## Regression analysis 
 
-[`regression/regression_analysis.ipynb`](regression/regression_analysis.ipynb) was written by Paige Mitchell, my project partner. It runs on the combined CSV that `analysis.py` produces. What it reports (n = 9 manufacturers):
+[`regression/regression_analysis.ipynb`](regression/regression_analysis.ipynb) was written by my project partner. It runs on the combined CSV that `analysis.py` produces. What it reports (n = 9 manufacturers):
 
 | Analysis | Result |
 |---|---|
