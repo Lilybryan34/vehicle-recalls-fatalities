@@ -83,7 +83,6 @@ Outputs go to `output/` (combined CSV) and `figures/`.
 - **The recall measure is not a true rate.** It is lag-adjusted recalled units divided by vehicles on the road (x100k). A vehicle recalled more than once is counted each time, and the lag multiplier inflates values. The column is named `Lag-Adj Recalled Units per COR (x100k)` for this reason.
 - **Vehicles on the road is an estimate** (see above).
 - No adjustment for vehicle age mix, driver demographics, or recall severity (an A/C recall and a brake recall count the same).
-- Recalls are filtered by report year (2010-2024) and crash records by vehicle model year (2010-2024), which are not the same window.
 - Correlational only; no causal claim is made.
 ## Possible extensions
  
