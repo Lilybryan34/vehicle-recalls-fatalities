@@ -8,6 +8,6 @@ The two raw files are not committed (they are large and publicly available). Dow
 | `vehicle.csv` | NHTSA Fatality Analysis Reporting System (FARS), vehicle table. Raw files: ftp://ftp.nhtsa.dot.gov/fars/ ; query tools: https://cdan.nhtsa.gov/. Needs the columns `MAKENAME`, `DEATHS`, `MOD_YEAR`. |
 | `cars_on_road_proxy.csv` | Included. Estimated vehicles on the road per manufacturer. See the main README for how it was built and what is missing. |
 
-**Crash years and download date:** [FILL IN: which FARS crash years `vehicle.csv` covers, how the years were combined if more than one, and the month you downloaded each file.]
+**Filters applied:** recalls with a report date in 2010-2024; crash records with a vehicle model year in 2010-2024. NHTSA updates both datasets over time, so a fresh download may differ slightly from the numbers reported here.
 
 Both datasets are U.S. government data.
