@@ -68,8 +68,8 @@ A "lookback" analysis: instead of aggregating over all 15 years, compare recalls
 
 ## Contributors
 
-- **Lily Bryan:** data preprocessing, manufacturer mapping, vehicles-on-the-road estimate, recall lag, K-means clustering, visualizations, and the written report.
-- **Paige Mitchell:** the regression and correlation notebook in `regression/`.
+- **Lily Bryan:** data preprocessing, manufacturer mapping, vehicles-on-the-road estimate, recall lag, K-means clustering, visualizations.
+- **Project partner:** the regression and correlation notebook in `regression/`.
 
 ## License
 
